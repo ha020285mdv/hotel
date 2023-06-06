@@ -14,12 +14,14 @@ export class RoomsComponent implements OnInit {
   numberOfRoms = 99;
 
   constructor() {}
-  
-  ngOnInit(): void {
-  }
 
   toggle() {
     this.hideRooms = !this.hideRooms;
   }
+
+  ngOnInit(): void {
+  }
+
+
 
 }
