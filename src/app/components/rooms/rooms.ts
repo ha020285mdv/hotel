@@ -12,4 +12,5 @@ export interface RoomList {
     photo: string;
     checkinTime: Date;
     chckoutTime: Date;
+    rating: number;
 }
